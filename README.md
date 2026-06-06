@@ -48,38 +48,11 @@ Finance_Project/
 ├── README.md
 ├── requirements.txt
 ├── setup.py
-├── .gitignore
-├── LICENSE
-│
-├── .github/
-│   └── workflows/
-│       └── python-app.yml     # GitHub Actions CI pipeline
-│
-├── data/
-│   ├── raw/                   # Raw historical yield datasets
-│   ├── processed/             # Cleaned, smoothed datasets
-│   └── sample_data/           # Small test datasets
-│
+
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_exploratory_analysis.ipynb
-│   ├── 03_CIR_calibration.ipynb
-│   ├── 04_yield_curve_reconstruction.ipynb
-│   ├── 05_model_comparison.ipynb
-│   └── final_submission_notebook.ipynb  # Main runnable research notebook
-│
-├── src/
-│   ├── data/                  # Loading and preprocessing routines
-│   ├── models/                # Mathematical SDE models
-│   ├── calibration/           # OLS, MLE, GMM calibrators
-│   ├── pricing/               # ZCB bond pricing formulas
-│   ├── evaluation/            # Error metrics and backtesting
-│   ├── visualization/         # Plotting and charts
-│   └── utils/                 # Configurations and logs
-│
-├── tests/                     # Package pytest suites
-├── reports/                   # Saved charts, tables and metrics
-└── docs/                      # Theoretical documentation
+│   ├── Stochastic_Interest_Rate_Modelling.ipynb
+
+                
 ```
 
 ---
